@@ -12,19 +12,31 @@
             <img class="page-header__logo-image" src="img/mishka-logo.svg" width="300" height="150" alt="Mishka">
         </a>
         <nav class="main-nav">
-            <button class="main-nav__button" type="button">
-        Открыть меню
-      </button>
+            <button class="main-nav__button" type="button">Открыть меню</button>
+            <ul class="main-nav__list site-list">
+                <li class="site-list__item">
+                    <a href="catalog.html">Каталог товаров</a>
+                </li>
+                <li class="site-list__item">
+                    <a href="form.html">Вязание на заказ</a>
+                </li>
+                <li class="site-list__item">
+                    <a href="#">Поиск о сайту</a>
+                </li>
+                <li class="site-list__item">
+                    <a href="#">Корзина: пока пуста</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main class="page-main">
-        <h1 class="page-header">Милые штуки ручной работы для дома</h1>
-        <ul class="site-list">
-            <li class="site-list__item">
-                <a class="site-list__item-link" href="#">Предметы интерьера</a>
+        <h1 class="page-main__header">Милые штуки ручной работы для дома</h1>
+        <ul class="category-list">
+            <li class="category-list__item">
+                <a class="category-list__item-link" href="#">Предметы интерьера</a>
             </li>
-            <li class="site-list__item">
-                <a class="site-list__item-link" href="#">Детские игрушки</a>
+            <li class="category-list__item">
+                <a class="category-list__item-link" href="#">Детские игрушки</a>
             </li>
         </ul>
         <section class="hit">
@@ -42,7 +54,7 @@
                 <img class="hit__image" src="img/item.jpg" width="" height="" alt="Товар недели">
             </p>
             <p>Цена: 990 руб.</p>
-            <a class="hit__order-button" href="#">Заказать</a>
+            <a class="hit__order-button button" href="#">Заказать</a>
         </section>
         <section class="advantages">
             <h2 class="advantages__title">Коротко о нас:</h2>
@@ -68,10 +80,25 @@
             </ul>
         </section>
         <section class="feedback">
-
+            <h2 class="feedback__title">Отзывы</h2>
+            <p class="feedback__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше
+                лайков!
+            </p>
+            <p class="feedback__user-name">Анастасия Красильникова</p>
+            <p class="feedback__user-nick">@misssssiskras</p>
+            <button class="feedback__prev" type="button"></button>
+            <button class="feedback__next" type="button"></button>
+            <a class="feedback__write-button button" href="#">Написать</a>
         </section>
         <section class="contacts">
-
+            <h2 class="contacts__title">Контакты</h2>
+            <p class="contacts__email">e-mail: <span class="contacts__email-address">info@mimimishkashop.ru</span></p>
+            <p class="contacts__address">адрес: <span class="contacts__address">г. Санкт-Петербург,
+          ул. Большая Конюшенная,
+          д. 19/8, офис 101</span></p>
+            <iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%2019%2F8%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%2C%20Russia+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a class="contacts__write-button button" href="#">Напишите нам</a>
         </section>
     </main>
     <footer class="page-footer">
