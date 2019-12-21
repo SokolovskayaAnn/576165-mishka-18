@@ -1,0 +1,57 @@
+@import 'variables';
+@import 'blocks/page-header.scss';
+@import 'blocks/page-main.scss';
+@import 'blocks/page-footer.scss';
+@import 'blocks/main-nav.scss';
+@import 'blocks/social.scss';
+@import 'blocks/hit.scss';
+@import 'blocks/feedback.scss';
+@import 'blocks/copyright.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/category-list.scss';
+@import 'blocks/contacts.scss';
+@import 'blocks/social.scss';
+@import 'blocks/button.scss';
+@import 'blocks/site-list.scss';
+@import 'blocks/page-catalog.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/list-item.scss';
+@import 'blocks/production.scss';
+@import 'blocks/page-form.scss';
+@import 'blocks/form-fieldset.scss';
+@import 'blocks/filter-type.scss';
+@import 'blocks/radio-option.scss';
+@import 'blocks/filter-color.scss';
+@import 'blocks/checkbox-option.scss';
+@import 'blocks/fieldset-fullname.scss';
+@import 'blocks/fieldset-telephone.scss';
+@import 'blocks/fieldset-email.scss';
+@import 'blocks/fieldset-extra.scss';
+@import 'blocks/form.scss';
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: $font-stack;
+  color: $color-grey;
+
+  background-color: $color-white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden{
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

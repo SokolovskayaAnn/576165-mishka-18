@@ -1,0 +1,33 @@
+.list-item{
+  width: 260px;
+  margin-bottom: 30px;
+  
+  border: 1px solid $color-lightergrey;
+}
+
+/*.list-item__description{
+  
+}*/
+
+.list-item__title-link{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $color-black;
+
+  text-decoration: none;
+}
+
+.list-item__parameters{
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $color-grey;
+}
+
+.list-item__price{
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $color-black;
+}

@@ -1,0 +1,26 @@
+.page-header {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $color-black;
+}
+
+.page-header__logo {
+  width: 86px;
+  height: 35px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__logo {
+    width: 113px;
+    height: 46px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    width: 149px;
+    height: 72px;
+  }
+}

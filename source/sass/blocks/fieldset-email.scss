@@ -1,0 +1,24 @@
+.fieldset-email__legend{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  color: $color-turquoise-light;
+
+  text-transform: uppercase;
+}
+
+.fieldset-email__input{
+  padding-top: 17px;
+  padding-bottom: 17px;
+
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+
+  border: none;
+  box-shadow: 0 -2px 0 0 $color-black inset;
+}
+
+.fieldset-email__input::placeholder{
+  color: rgba(68, 68, 68, 0.3);
+}

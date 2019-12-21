@@ -1,0 +1,31 @@
+.contacts__title{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: $color-black;
+}
+
+.contacts__email{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $color-grey;
+}
+
+.contacts__email-address{
+  border-bottom: 1px solid $color-turquoise-dark;
+}
+
+.contacts__address-label{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $color-grey;
+}
+
+.contacts__address{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $color-grey;
+}

@@ -1,0 +1,24 @@
+.form__legend{
+  margin: 10px auto;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: $color-grey;
+}
+
+.form__send-button{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 15px;
+  // padding-right: ;
+  padding-bottom: 15px;
+  // padding-left: ;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  color: $color-grey;
+
+  text-transform: uppercase;
+}

@@ -1,0 +1,25 @@
+.filter-type{
+  border: none;
+  // border-top: 1px solid $color-turquoise-light;
+}
+
+.filter-type__legend{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  color: $color-turquoise-light;
+  text-transform: uppercase;
+}
+
+.filter-type__list{
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.filter-type__option{
+  margin-top: 30px;
+  margin-left: 25px;
+  padding-left: 40px;
+}

@@ -1,0 +1,31 @@
+.checkbox-option__input{
+  display: none;
+}
+
+.checkbox-option__label:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -62px;
+  
+  width: 38px;
+  height: 38px;
+  
+  border: 2px solid $color-grey;
+}
+
+.checkbox-option__label{
+  position: relative;
+  
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 18px;
+  color: $color-black;
+}
+
+.checkbox-option__input:checked+.checkbox-option__label:before {
+  background-image: url("../img/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 22px 16px;
+}

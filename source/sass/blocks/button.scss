@@ -1,0 +1,16 @@
+.button{
+  padding-top: 10px;
+  // padding-right: ;
+  padding-bottom: 10px;
+  // padding-left: ;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: $color-grey;
+
+  background-color: transparent;
+
+  border: 2px solid $color-grey;
+  text-decoration: none;
+}
