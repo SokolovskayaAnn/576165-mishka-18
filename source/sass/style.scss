@@ -1,4 +1,7 @@
-@import 'variables';
+@import 'includes/variables.scss';
+@import 'includes/common.scss';
+@import 'includes/fonts.scss';
+@import 'blocks/visually-hidden.scss';
 @import 'blocks/page-header.scss';
 @import 'blocks/page-main.scss';
 @import 'blocks/page-footer.scss';
@@ -28,30 +31,3 @@
 @import 'blocks/fieldset-email.scss';
 @import 'blocks/fieldset-extra.scss';
 @import 'blocks/form.scss';
-
-body {
-  min-width: 320px;
-  margin: 0;
-  padding: 0;
-
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 30px;
-  font-family: $font-stack;
-  color: $color-grey;
-
-  background-color: $color-white;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.visually-hidden{
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}

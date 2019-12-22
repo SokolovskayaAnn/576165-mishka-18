@@ -1,7 +1,7 @@
 .button{
-  padding-top: 10px;
+  padding-top: 14px;
   // padding-right: ;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
   // padding-left: ;
 
   font-size: 17px;
@@ -10,7 +10,7 @@
   color: $color-grey;
 
   background-color: transparent;
-
   border: 2px solid $color-grey;
   text-decoration: none;
+  text-transform: uppercase;
 }
