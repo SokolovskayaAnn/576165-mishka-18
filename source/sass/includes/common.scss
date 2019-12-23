@@ -1,0 +1,27 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: $font-stack;
+  color: $color-grey;
+
+  background-color: $color-white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

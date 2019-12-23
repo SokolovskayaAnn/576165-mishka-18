@@ -1,0 +1,21 @@
+.category-list{
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $color-white;
+  padding: inherit;
+
+  background-color: $color-white;
+}
+
+.category-list__item{
+  background-color: $color-turquoise-light;
+}
+
+.category-list__item-link{
+  display: block;
+  width: 130px;
+  
+  color: $color-white;
+  text-decoration: none;
+}

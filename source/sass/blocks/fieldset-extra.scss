@@ -1,0 +1,31 @@
+.fieldset-extra__legend{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  color: $color-turquoise-light;
+
+  text-transform: uppercase;
+}
+
+.fieldset-extra__textarea{
+  padding: 15px;
+
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: inherit;
+
+  border: none;
+  box-shadow: 0 0 0 2px $color-black inset;
+
+  outline: none;
+  resize: none;
+}
+
+.fieldset-extra__textarea::placeholder{
+  width: 180px;
+  
+  color: rgba(68, 68, 68, 0.3);
+}
