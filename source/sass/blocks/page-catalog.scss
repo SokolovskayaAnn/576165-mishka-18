@@ -1,7 +1,38 @@
 .page-catalog__title{
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 74px;
+  padding-bottom: 72px;
+
   font-size: 27px;
   font-weight: 700;
   line-height: 30px;
   color: $color-black;
+
+  text-align: center;
   background-color: $color-lightgrey;
+  border-top: 1px solid $color-lightergrey;
+}
+
+@media (min-width: $tablet-width) { 
+  .page-catalog__title {
+    padding-top: 95px;
+    padding-bottom: 82px;
+    margin-bottom: 76px;
+
+    font-size: 43px;
+    line-height: 50px;
+    border-top: 1px solid rgba($color-black, 0.1);
+  }
+}
+
+@media (min-width: $desktop-width) { 
+  .page-catalog__title {
+    padding-top: 95px;
+    padding-bottom: 102px;
+    margin-bottom: 128px;
+
+    font-size: 53px;
+    line-height: 57px;
+  }
 }
