@@ -1,4 +1,4 @@
-.category-list{
+.category-list {
   display: flex;
   flex-direction: column;
 
@@ -12,40 +12,40 @@
   background-color: $color-white;
 }
 
-.category-list__item-link{
+.category-list__item-link {
   position: relative;
   background-color: $color-turquoise-light;
 }
 
-.category-list__item-link:nth-child(2n){
+.category-list__item-link:nth-child(2n) {
   background-color: $color-turquoise-dark;
 }
 
-.category-list__item-link{
+.category-list__item-link {
   padding: 30px 30px;
-  
+
   color: $color-white;
   text-decoration: none;
 }
 
-.category-list__item{
+.category-list__item {
   width: 130px;
 }
 
-.category-list__item::after{
+.category-list__item::after {
   content: "";
   position: absolute;
   top: 22px;
 
   display: block;
-  
+
   background-repeat: no-repeat;
   background-position: 50% 50%;
 
   opacity: 0.5;
 }
 
-.category-list__item--interior::after{
+.category-list__item--interior::after {
   right: 38px;
 
   width: 40px;
@@ -54,7 +54,7 @@
   background-image: url("../img/icon-interior.svg");
 }
 
-.category-list__item--toy::after{
+.category-list__item--toy::after {
   right: 28px;
 
   width: 60px;
@@ -86,7 +86,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .category-list__item-link{
+  .category-list__item-link {
     padding-top: 27px;
   }
 }

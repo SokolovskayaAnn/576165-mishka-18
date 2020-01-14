@@ -21,7 +21,7 @@
 
 .page-main__container {
   width: 100%;
-  
+
   border-top: 1px solid $color-lightergrey;
   background-color: $color-grey-bg;
 }
@@ -39,14 +39,14 @@
 
     padding: 0 $tablet-padding;
   }
-  
+
   .page-main__container-inner {
-    width: $tablet-width - $tablet-padding * 2; 
+    width: $tablet-width - $tablet-padding * 2;
     margin: 0 auto;
 
     background-image: url("../img/hero-tablet@1x.jpg");
   }
-  
+
   .page-main__header{
     width: 500px;
     padding-top: 153px;
@@ -76,12 +76,12 @@
   }
 
   .page-main__container-inner {
-    width: $desktop-width - $desktop-padding * 2; 
+    width: $desktop-width - $desktop-padding * 2;
     margin: 0 auto;
 
     background-image: url("../img/hero-desktop@1x.jpg");
   }
-  
+
   .page-main__zigzag-bg {
     bottom: -9px;
     height: 34px;
@@ -90,7 +90,7 @@
   .page-main__header{
     width: 680px;
     padding-bottom: 340px;
-    
+
     font-size: 53px;
     line-height: 57px;
   }

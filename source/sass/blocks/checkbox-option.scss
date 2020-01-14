@@ -1,4 +1,4 @@
-.checkbox-option__input{
+.checkbox-option__input {
   display: none;
 }
 
@@ -7,16 +7,16 @@
   position: absolute;
   top: -10px;
   left: -62px;
-  
+
   width: 38px;
   height: 38px;
-  
+
   border: 2px solid $color-grey;
 }
 
-.checkbox-option__label{
+.checkbox-option__label {
   position: relative;
-  
+
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;

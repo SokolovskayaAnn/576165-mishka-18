@@ -1,4 +1,4 @@
-.fieldset-fullname__legend{
+.fieldset-fullname__legend {
   margin-bottom: 14px;
   font-size: 17px;
   font-weight: 700;
@@ -8,7 +8,7 @@
   text-transform: uppercase;
 }
 
-.fieldset-fullname__label{
+.fieldset-fullname__label {
   display: flex;
   flex-grow: 1;
   margin-top: 20px;
@@ -19,7 +19,7 @@
   color: $color-black;
 }
 
-.fieldset-fullname__input{
+.fieldset-fullname__input {
   padding-top: 20px;
   padding-bottom: 18px;
 
@@ -32,6 +32,6 @@
   box-shadow: 0 -2px 0 0 $color-black inset;
 }
 
-.fieldset-fullname__input::placeholder{
+.fieldset-fullname__input::placeholder { 
   color: rgba(68, 68, 68, 0.3);
 }

@@ -9,8 +9,8 @@
 }
 
 .feedback__container-inner{
-  width: 260px; 
-  margin: 0px auto; 
+  width: 260px;
+  margin: 0px auto;
 }
 
 .feedback__title{
@@ -39,7 +39,7 @@
 
 .feedback__text{
   margin: 25px auto;
-  
+
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -93,7 +93,7 @@
 
 .feedback__write-button{
   display: flex;
-  flex-grow: 1; 
+  flex-grow: 1;
 
   margin-bottom: 40px;
 }
@@ -108,11 +108,11 @@
     background-repeat: no-repeat;
     background-size: 350px 457px;
   }
-  
+
   .feedback__container-inner {
     position: relative;
 
-    width: $tablet-width - $tablet-padding * 2; 
+    width: $tablet-width - $tablet-padding * 2;
   }
 
   .feedback__title {
@@ -134,18 +134,18 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-  }  
+  }
 
   .feedback__text {
     margin-top: 48px;
     margin-bottom: 58px;
     font-size: 17px;
   }
-  
+
   .feedback__user-name {
     font-size: 18px;
   }
-  
+
   .feedback__buttons{
     position: absolute;
     right: 0;
@@ -157,7 +157,7 @@
   .feedback__button {
     border: none;
   }
-  
+
   .feedback__write-button {
     position: absolute;
     top: 0;
@@ -173,14 +173,14 @@
 
     background-image: none;
   }
-  
+
   .feedback__container-inner {
     position: relative;
 
     display: flex;
     flex-direction: column;
     width: $desktop-width - $desktop-padding * 2;
-    padding-left: 175px; 
+    padding-left: 175px;
     padding-top: 73px;
     padding-bottom: 94px;
 
@@ -197,7 +197,7 @@
     font-size: 53px;
     line-height: 57px;
   }
-  
+
   .feedback__title::after {
     bottom: -85px;
     left: 0;
@@ -211,7 +211,7 @@
     margin-bottom: 8px;
     font-size: 17px;
   }
-  
+
   .feedback__user-name {
     font-size: 17px;
   }
@@ -219,7 +219,7 @@
   .feedback__buttons{
     bottom: 20px;
   }
-  
+
   .feedback__write-button {
     top: 80px;
   }

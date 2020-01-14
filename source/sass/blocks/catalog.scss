@@ -4,8 +4,8 @@
 }
 
 .catalog__container-inner {
-  width: 260px; 
-  margin: 0px auto; 
+  width: 260px;
+  margin: 0px auto;
 }
 
 .catalog__list {
@@ -15,7 +15,7 @@
   list-style: none;
 }
 
-@media (min-width: $tablet-width) { 
+@media (min-width: $tablet-width) {
   .catalog {
     position: relative;
   }
@@ -25,7 +25,7 @@
   }
 
   .catalog__container-inner {
-    width: $tablet-width - $tablet-padding * 2; 
+    width: $tablet-width - $tablet-padding * 2;
   }
 
   .catalog__zigzag-bg {
@@ -40,13 +40,13 @@
   }
 }
 
-@media (min-width: $desktop-width) { 
+@media (min-width: $desktop-width) {
   .catalog__container {
     padding: 0 $desktop-padding;
   }
 
   .catalog__container-inner {
-    width: $desktop-width - $desktop-padding * 2; 
+    width: $desktop-width - $desktop-padding * 2;
   }
 
   .catalog__list {

@@ -30,12 +30,12 @@
   .page-header__container {
     padding: 0 $tablet-padding;
   }
-  
+
   .page-header__container-inner {
     position: relative;
 
     flex-direction: row;
-    width: $tablet-width - $tablet-padding * 2; 
+    width: $tablet-width - $tablet-padding * 2;
     margin: 0px auto;
   }
 
@@ -59,11 +59,11 @@
   .page-header__container {
     padding: 0 $desktop-padding;
   }
-  
+
   .page-header__container-inner {
-    width: $desktop-width - $desktop-padding * 2; 
+    width: $desktop-width - $desktop-padding * 2;
   }
-  
+
   .page-header__logo {
     position: absolute;
     left: 455px;
@@ -82,4 +82,3 @@
     margin: 10px auto;
   }
 }
-

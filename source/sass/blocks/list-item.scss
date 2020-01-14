@@ -3,7 +3,7 @@
   flex-direction: column;
 
   margin-bottom: 30px;
-  
+
   border: 1px solid $color-lightergrey;
 }
 
@@ -35,7 +35,7 @@
   margin: 0;
   margin-bottom: 20px;
   margin-left: 28px;
-  
+
   font-size: 13px;
   font-weight: 400;
   line-height: 30px;
@@ -55,14 +55,14 @@
 
 .list-item__price {
   margin: 0;
-  
+
   font-size: 15px;
   font-weight: 700;
   line-height: 24px;
   color: $color-black;
 }
 
-@media (min-width: $tablet-width) { 
+@media (min-width: $tablet-width) {
   .list-item {
     display: flex;
     flex-direction: row;
@@ -90,7 +90,7 @@
     padding-top: 25px;
   }
 
-  .list-item__price {  
+  .list-item__price {
     font-size: 17px;
   }
 
@@ -100,7 +100,7 @@
   }
 }
 
-@media (min-width: $desktop-width) { 
+@media (min-width: $desktop-width) {
   .list-item {
     flex-direction: column;
     width: 316px;
