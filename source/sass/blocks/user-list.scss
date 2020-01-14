@@ -21,7 +21,7 @@
   padding-bottom: 24px;
 }
 
-.user-list__icon{
+.user-list__icon {
   position: absolute;
   top: 5px;
   left: -45px;
@@ -36,7 +36,7 @@
   }
 }
 
-.user-list__icon:hover{
+.user-list__icon:hover {
   opacity: 1;
 
   path {
@@ -70,6 +70,7 @@
     border-left: 1px solid $color-lightergrey;
     border-right: 1px solid $color-lightergrey;
   }
+
   .user-list__item--search {
     width: 84px;
   }
@@ -89,11 +90,5 @@
 
   .user-list__icon--cart {
     left: 32px
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .user-list {
-    // width: 400px;
   }
 }

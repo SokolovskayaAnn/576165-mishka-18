@@ -58,10 +58,10 @@
 
   .page-main__zigzag-bg {
     position: absolute;
-    left: -8px;
+    left: 0;
     bottom: -2px;
 
-    width: 100vw;
+    width: 100%;
     height: 24px;
 
     background-image: url("../img/bg-zigzag-fill.svg");
