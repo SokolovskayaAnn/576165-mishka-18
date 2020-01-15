@@ -2,7 +2,7 @@
   display: none;
 }
 
-.checkbox-option__label:before {
+.checkbox-option__label::before {
   content: "";
   position: absolute;
   top: -10px;
@@ -23,7 +23,7 @@
   color: $color-black;
 }
 
-.checkbox-option__input:checked+.checkbox-option__label:before {
+.checkbox-option__input:checked + .checkbox-option__label::before {
   background-image: url("../img/tick.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;

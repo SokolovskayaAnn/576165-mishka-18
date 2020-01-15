@@ -8,12 +8,12 @@
   padding: 0 $mobile-padding;
 }
 
-.feedback__container-inner{
+.feedback__container-inner {
   width: 260px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
-.feedback__title{
+.feedback__title {
   margin: 0;
 
   font-size: 25px;
@@ -37,7 +37,7 @@
   background-position: center;
 }
 
-.feedback__text{
+.feedback__text {
   margin: 25px auto;
 
   font-size: 15px;
@@ -46,7 +46,7 @@
   color: $color-grey;
 }
 
-.feedback__user-name{
+.feedback__user-name {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 3px;
@@ -58,7 +58,7 @@
 }
 
 .feedback__user-nick{
-  margin: 0;
+  margin: 0; 
 
   font-size: 17px;
   font-weight: 400;
@@ -66,11 +66,11 @@
   color: $color-grey;
 }
 
-.feedback__buttons{
+.feedback__buttons {
   display: flex;
 }
 
-.feedback__button{
+.feedback__button {
   width: 50%;
   height: 52px;
   margin-top: 30px;
@@ -83,15 +83,15 @@
   background-color: transparent;
 }
 
-.feedback__button--prev{
+.feedback__button--prev {
   background-image: url("../img/icon-left-arrow.svg");
 }
 
-.feedback__button--next{
+.feedback__button--next {
   background-image: url("../img/icon-right-arrow.svg");
 }
 
-.feedback__write-button{
+.feedback__write-button {
   display: flex;
   flex-grow: 1;
 
@@ -146,7 +146,7 @@
     font-size: 18px;
   }
 
-  .feedback__buttons{
+  .feedback__buttons {
     position: absolute;
     right: 0;
     bottom: -35px;
@@ -193,7 +193,7 @@
     background-image: none;
   }
 
-  .feedback__title{
+  .feedback__title {
     font-size: 53px;
     line-height: 57px;
   }
@@ -206,7 +206,7 @@
     height: 27px;
   }
 
-  .feedback__text{
+  .feedback__text {
     margin-top: 48px;
     margin-bottom: 8px;
     font-size: 17px;
@@ -216,7 +216,7 @@
     font-size: 17px;
   }
 
-  .feedback__buttons{
+  .feedback__buttons {
     bottom: 20px;
   }
 

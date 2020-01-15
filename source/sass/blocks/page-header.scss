@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.page-header__container-inner{
+.page-header__container-inner {
   display: flex;
   flex-direction: column;
 }
@@ -36,7 +36,7 @@
 
     flex-direction: row;
     width: $tablet-width - $tablet-padding * 2;
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
   .page-header__logo {
@@ -78,7 +78,6 @@
     width: 149px;
     height: 72px;
 
-    margin: 0;
     margin: 10px auto;
   }
 }

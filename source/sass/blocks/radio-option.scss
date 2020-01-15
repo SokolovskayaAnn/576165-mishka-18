@@ -2,7 +2,7 @@
   display: none;
 }
 
-.radio-option__label:before {
+.radio-option__label::before {
   content: "";
   position: absolute;
   top: -10px;
@@ -25,7 +25,7 @@
   color: $color-black;
 }
 
-.radio-option__input:checked+.radio-option__label:before {
+.radio-option__input:checked + .radio-option__label::before {
   box-shadow: 0 0 0 10px $color-white inset;
   background-color: $color-turquoise-middle;
 }

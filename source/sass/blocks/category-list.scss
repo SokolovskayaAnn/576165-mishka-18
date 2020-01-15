@@ -14,18 +14,17 @@
 
 .category-list__item-link {
   position: relative;
+
+  padding: 30px 30px;
+
+  color: $color-white;
+
+  text-decoration: none;
   background-color: $color-turquoise-light;
 }
 
 .category-list__item-link:nth-child(2n) {
   background-color: $color-turquoise-dark;
-}
-
-.category-list__item-link {
-  padding: 30px 30px;
-
-  color: $color-white;
-  text-decoration: none;
 }
 
 .category-list__item {

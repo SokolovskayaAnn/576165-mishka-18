@@ -12,7 +12,7 @@
 
 .advantages__container-inner {
   width: 260px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .advantages__title {
@@ -28,7 +28,7 @@
   content: "";
   position: absolute;
 
-  top:-30px;
+  top: -30px;
   left: 0;
 
   width: 100%;
@@ -115,6 +115,7 @@
     padding-top: 38px;
     margin-bottom: 4px;
   }
+
   .advantages__container {
     padding: 0 $tablet-padding;
   }
@@ -165,7 +166,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .advantages{
+  .advantages {
     position: unset;
     padding-top: 70px;
   }
