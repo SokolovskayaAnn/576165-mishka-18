@@ -1,6 +1,60 @@
-.catalog__list{
+.catalog__container {
+  width: 100%;
+  padding: 0 $mobile-padding;
+}
+
+.catalog__container-inner {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.catalog__list {
   margin: 0;
   padding: 0;
 
   list-style: none;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog {
+    position: relative;
+  }
+
+  .catalog__container {
+    padding: 0 $tablet-padding;
+  }
+
+  .catalog__container-inner {
+    width: $tablet-width - $tablet-padding * 2;
+  }
+
+  .catalog__zigzag-bg {
+    position: absolute;
+    top: -94px;
+
+    width: 100vw;
+    height: 24px;
+
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-size: 100%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog__container {
+    padding: 0 $desktop-padding;
+  }
+
+  .catalog__container-inner {
+    width: $desktop-width - $desktop-padding * 2;
+  }
+
+  .catalog__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .catalog__zigzag-bg {
+    top: -150px;
+  }
 }

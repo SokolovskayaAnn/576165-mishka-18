@@ -1,4 +1,4 @@
-.fieldset-telephone__legend{
+.fieldset-telephone__legend {
   font-size: 17px;
   font-weight: 700;
   line-height: 16px;
@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-.fieldset-telephone__input{
+.fieldset-telephone__input {
   padding-top: 17px;
   padding-bottom: 17px;
 
@@ -20,6 +20,6 @@
   box-shadow: 0 -2px 0 0 $color-black inset;
 }
 
-.fieldset-telephone__input::placeholder{
+.fieldset-telephone__input::placeholder {
   color: rgba(68, 68, 68, 0.3);
 }

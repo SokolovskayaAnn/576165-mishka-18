@@ -1,15 +1,28 @@
-.list-item{
-  width: 260px;
+.list-item {
+  display: flex;
+  flex-direction: column;
+
   margin-bottom: 30px;
-  
+
   border: 1px solid $color-lightergrey;
 }
 
-/*.list-item__description{
-  
-}*/
+.list-item__description {
+  display: flex;
+  flex-direction: column;
+}
 
-.list-item__title-link{
+.list-item__title {
+  margin: 0;
+  margin-top: 24px;
+  margin-left: 28px;
+}
+
+.list-item__image-link {
+  line-height: 0;
+}
+
+.list-item__title-link {
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -18,16 +31,104 @@
   text-decoration: none;
 }
 
-.list-item__parameters{
+.list-item__parameters {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 28px;
+
   font-size: 13px;
   font-weight: 400;
   line-height: 30px;
   color: $color-grey;
 }
 
-.list-item__price{
+.list-item__price-container {
+  display: flex;
+  justify-content: space-between;
+  width: 204px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-top: 1px solid $color-lightergrey;
+}
+
+.list-item__price {
+  margin: 0;
+
   font-size: 15px;
   font-weight: 700;
   line-height: 24px;
   color: $color-black;
+}
+
+@media (min-width: $tablet-width) {
+  .list-item {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 54px;
+  }
+
+  .list-item__description {
+    width: 334px;
+  }
+
+  .list-item__title-link {
+    font-size: 20px;
+  }
+
+  .list-item__parameters {
+    font-size: 15px;
+  }
+
+  .list-item__price-container {
+    width: auto;
+    margin-top: auto;
+    margin-right: 28px;
+    margin-left: 28px;
+    padding-top: 25px;
+  }
+
+  .list-item__price {
+    font-size: 17px;
+  }
+
+  .list-item__image {
+    width: 334px;
+    height: 332px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .list-item {
+    flex-direction: column;
+    width: 316px;
+  }
+
+  .list-item__title {
+    width: 240px;
+    line-height: 23px;
+  }
+
+  .list-item__description {
+    align-content: space-between;
+    width: auto;
+    height: 197px;
+  }
+
+  .list-item__image {
+    width: 316px;
+    height: 462px;
+  }
+
+  .list-item__parameters {
+    margin-top: 5px;
+    margin-bottom: 14px;
+  }
+
+  .list-item__price-container {
+    align-content: flex-end;
+    padding-top: 21px;
+  }
 }

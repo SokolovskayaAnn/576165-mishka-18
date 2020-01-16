@@ -1,8 +1,47 @@
-.advantages{
-  margin-bottom: 60px;
+.advantages {
+  position: relative;
+
+  padding-top: 10px;
+  margin-bottom: 55px;
 }
 
-.advantages__list{
+.advantages__container {
+  width: 100%;
+  padding: 0 $mobile-padding;
+}
+
+.advantages__container-inner {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.advantages__title {
+  margin: 0;
+
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  color: $color-black;
+}
+
+.advantages__title::before {
+  content: "";
+  position: absolute;
+
+  top: -30px;
+  left: 0;
+
+  width: 100%;
+  height: 14px;
+
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: 100%;
+}
+
+.advantages__list {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -11,17 +50,7 @@
   list-style: none;
 }
 
-.advantages__title{
-  margin: 0;
-  margin-top: 30px; 
-
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 30px;
-  color: $color-black;
-}
-
-.advantages__item-title{
+.advantages__item-title {
   position: relative;
 
   width: 200px;
@@ -34,7 +63,7 @@
   color: $color-black;
 }
 
-.advantages__item-title::before{
+.advantages__item-title::before {
   content: "";
   position: absolute;
   top: 25px;
@@ -43,41 +72,137 @@
   display: block;
   width: 50px;
   height: 50px;
-  
+
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
-.advantages__item-title--eco{
+.advantages__item-title--eco {
   width: 195px;
 }
 
-.advantages__item-title--eco::before{
+.advantages__item-title--eco::before {
   background-image: url("../img/icon-feature-flower.svg");
 }
 
-.advantages__item-title--style::before{
+.advantages__item-title--style::before {
   background-image: url("../img/icon-feature-money.svg");
 }
 
-.advantages__item-title--like::before{
+.advantages__item-title--like::before {
   background-image: url("../img/icon-feature-heart.svg");
 }
 
 .advantages__item-title--handmade,
-.advantages__item-title--support
-{
+.advantages__item-title--support {
   width: 250px;
 }
 
-.advantages__item-title--handmade::before{
+.advantages__item-title--handmade::before {
   background-image: url("../img/icon-feature-ball.svg");
 }
 
-.advantages__item-title--support::before{
+.advantages__item-title--support::before {
   background-image: url("../img/icon-feature-rocket.svg");
 }
 
-.advantages__item-title--package::before{
+.advantages__item-title--package::before {
   background-image: url("../img/icon-feature-gift.svg");
+}
+
+@media (min-width: $tablet-width) {
+  .advantages {
+    padding-top: 38px;
+    margin-bottom: 4px;
+  }
+
+  .advantages__container {
+    padding: 0 $tablet-padding;
+  }
+
+  .advantages__container-inner {
+    width: $tablet-width - $tablet-padding * 2;
+  }
+
+  .advantages__title {
+    margin-bottom: 20px;
+
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .advantages__title::before {
+    height: 22px;
+  }
+
+  .advantages__item-title {
+    width: 225px;
+
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .advantages__list {
+    flex-wrap: wrap;
+    height: 465px;
+  }
+
+  .advantages__item {
+    width: 337px;
+  }
+
+  .advantages__item-title--style {
+    width: 235px;
+  }
+
+  .advantages__item-title--handmade,
+  .advantages__item-title--support {
+    width: 294px;
+  }
+
+  .advantages__item-title--package {
+    width: 290px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages {
+    position: unset;
+    padding-top: 70px;
+  }
+
+  .advantages__container {
+    padding: 0 $desktop-padding;
+  }
+
+  .advantages__container-inner {
+    position: relative;
+
+    padding-left: 175px;
+    width: $desktop-width - $desktop-padding * 2;
+  }
+
+  .advantages__title {
+    margin-bottom: 20px;
+
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .advantages__title::before {
+    top: -80px;
+
+    width: $desktop-width - $desktop-padding * 2;
+    height: 27px;
+  }
+
+  .advantages__item {
+    width: 350px;
+  }
+
+  .advantages__list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 465px;
+  }
 }
