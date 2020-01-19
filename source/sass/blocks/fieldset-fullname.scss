@@ -5,7 +5,7 @@
 .fieldset-fullname__list {
   padding: 0;
   list-style: none;
-} 
+}
 
 .fieldset-fullname__legend {
   position: relative;
@@ -99,7 +99,7 @@
 
     font-size: 19px;
     line-height: 20px;
-  }  
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -110,5 +110,5 @@
   .fieldset-fullname__list {
     width: 875px;
     padding-right: 175px;
-  }  
+  }
 }
