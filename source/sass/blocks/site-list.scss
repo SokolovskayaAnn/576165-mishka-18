@@ -56,7 +56,9 @@
 @media (min-width: $desktop-width) {
   .site-list {
     position: unset;
+    top: 0;
     z-index: 0;
+    
     width: 370px;
   }
 

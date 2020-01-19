@@ -24,8 +24,28 @@
 }
 
 .checkbox-option__input:checked + .checkbox-option__label::before {
-  background-image: url("../img/tick.png");
+  background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 22px 16px;
+}
+
+@media (min-width: $tablet-width) {
+  .checkbox-option__label {
+    font-size: 19px;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .checkbox-option__label::before {
+    top: -14px;
+    left: -80px;
+
+    width: 54px;
+    height: 52px;
+  }
+
+  .checkbox-option__input:checked + .checkbox-option__label::before {
+    background-size: 33px 22px;
+  }
 }
