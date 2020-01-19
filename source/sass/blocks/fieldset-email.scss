@@ -1,4 +1,13 @@
+.fieldset-email {
+  position: relative;
+  margin-bottom: 34px;
+}
+
 .fieldset-email__legend {
+  position: relative;
+
+  margin: 0;
+
   font-size: 17px;
   font-weight: 700;
   line-height: 16px;
@@ -7,9 +16,36 @@
   text-transform: uppercase;
 }
 
+.fieldset-email__legend::before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 225px;
+
+  width: 32px;
+  height: 26px;
+
+  background-image: url("../img/icon-mail.svg");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.fieldset-email__legend::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 85px;
+
+  width: 175px;
+
+  border-top: 1px solid $color-turquoise-light;
+}
+
 .fieldset-email__input {
-  padding-top: 17px;
-  padding-bottom: 17px;
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 18px;
 
   font-size: 17px;
   font-weight: 400;
@@ -22,4 +58,57 @@
 
 .fieldset-email__input::placeholder {
   color: rgba(68, 68, 68, 0.3);
+}
+
+@media (min-width: $tablet-width) {
+  .fieldset-email {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 52px;
+    padding-top: 40px;
+    padding-bottom: 48px;
+
+    background-color: $color-lightgrey;
+  }
+
+  .fieldset-email__legend {
+    margin: 0;
+  }
+
+  .fieldset-email__legend::before {
+    z-index: 1;
+    top: -5px;
+    left: 625px;
+  }
+
+  .fieldset-email__legend::after {
+    border-top: none;
+  }
+
+  .fieldset-email__input {
+    width: 500px;
+    padding-top: 0;
+    padding-left: 15px;
+
+    font-size: 19px;
+    line-height: 20px;
+
+    background-color: $color-lightgrey;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .fieldset-email__legend {
+    padding-left: 64px;
+  }
+
+  .fieldset-email__input {
+    width: 700px;
+    margin-right: 175px;
+  }
+
+  .fieldset-email__legend::before {
+    left: 825px;
+  }
 }

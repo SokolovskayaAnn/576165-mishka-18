@@ -1,25 +1,84 @@
 .filter-type {
   border: none;
-  // border-top: 1px solid $color-turquoise-light;
+  margin-bottom: 45px;
 }
 
 .filter-type__legend {
+  position: relative;
+
+  margin: 0;
+
   font-size: 17px;
   font-weight: 700;
   line-height: 16px;
   color: $color-turquoise-light;
+
   text-transform: uppercase;
+}
+
+.filter-type__legend::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 62px;
+
+  width: 198px;
+
+  border-top: 1px solid $color-turquoise-light;
 }
 
 .filter-type__list {
   margin: 0;
+  margin-top: 35px;
+  margin-bottom: 20px;
   padding: 0;
 
   list-style: none;
 }
 
 .filter-type__option {
-  margin-top: 30px;
   margin-left: 25px;
   padding-left: 40px;
+
+  line-height: 18px;
+}
+
+.filter-type__option:nth-child(2n) {
+  margin-top: 23px;
+}
+
+@media (min-width: $tablet-width) {
+  .filter-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .filter-type__option {
+    padding-left: 55px;
+  }
+
+  .filter-type__list {
+    width: 500px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .filter-type__legend::after {
+    display: none;
+  }
+
+  .filter-type__option:nth-child(2n) {
+    margin-top: 53px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .filter-type__legend {
+    padding-left: 64px;
+  }
+
+  .filter-type__list {
+    width: 875px;
+  }
 }

@@ -1,4 +1,11 @@
+.fieldset-telephone {
+  margin-bottom: 32px;
+}
+
 .fieldset-telephone__legend {
+  position: relative;
+
+  margin: 0;
   font-size: 17px;
   font-weight: 700;
   line-height: 16px;
@@ -7,7 +14,34 @@
   text-transform: uppercase;
 }
 
+.fieldset-telephone__legend::before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 230px;
+
+  width: 25px;
+  height: 24.333px;
+
+  background-image: url("../img/icon-phone.svg");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.fieldset-telephone__legend::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 60px;
+
+  width: 200px;
+
+  border-top: 1px solid $color-turquoise-light;
+}
+
 .fieldset-telephone__input {
+  width: 100%;
   padding-top: 17px;
   padding-bottom: 17px;
 
@@ -22,4 +56,52 @@
 
 .fieldset-telephone__input::placeholder {
   color: rgba(68, 68, 68, 0.3);
+}
+
+@media (min-width: $tablet-width) {
+  .fieldset-telephone {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-top: 64px;
+  }
+
+  .fieldset-telephone__legend {
+    margin: 0;
+  }
+
+  .fieldset-telephone__legend::before {
+    z-index: 1;
+    top: -5px;
+    left: 625px;
+  }
+
+  .fieldset-telephone__legend::after {
+    border-top: none;
+  }
+
+  .fieldset-telephone__input {
+    width: 500px;
+    padding-top: 0;
+    padding-left: 15px;
+
+    line-height: 20px;
+
+    background-color: $color-lightgrey;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .fieldset-telephone__legend {
+    padding-left: 64px;
+  }
+
+  .fieldset-telephone__input {
+    width: 700px;
+    margin-right: 175px;
+  }
+
+  .fieldset-telephone__legend::before {
+    left: 825px;
+  }
 }

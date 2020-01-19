@@ -1,10 +1,27 @@
+.filter-color {
+  margin-bottom: 30px;
+}
+
 .filter-color__legend {
+  position: relative;
+
   font-size: 17px;
   font-weight: 700;
   line-height: 16px;
   color: $color-turquoise-light;
 
   text-transform: uppercase;
+}
+
+.filter-color__legend::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 62px;
+
+  width: 198px;
+
+  border-top: 1px solid $color-turquoise-light;
 }
 
 .filter-color__list {
@@ -20,4 +37,56 @@
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 40px;
+}
+
+@media (min-width: $tablet-width) {
+  .filter-color {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 68px;
+    padding-bottom: 12px;
+
+    background-color: $color-lightgrey;
+  }
+
+  .filter-color__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+
+  .filter-color__legend {
+    margin: 0;
+  }
+
+  .filter-color__legend::after {
+    display: none;
+  }
+
+  .filter-color__option {
+    margin: 0;
+    margin-bottom: 45px;
+    margin-left: 25px;
+    padding: 0;
+    padding-left: 56px;
+  }
+
+  .filter-color__option:nth-child(2n+1) {
+    width: 230px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .filter-color__legend {
+    padding-left: 64px;
+  }
+
+  .filter-color__list {
+    width: 878px;
+  }
+
+  .filter-color__option:nth-child(n) {
+    width: 238px;
+  }
 }
