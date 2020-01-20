@@ -56,6 +56,14 @@
   box-shadow: 0 -2px 0 0 $color-black inset;
 }
 
+.fieldset-fullname__input:hover {
+  box-shadow: 0 -2px 0 0 $color-turquoise-middle inset;
+}
+
+.fieldset-fullname__input:active {
+  box-shadow: 0 -2px 0 0 $color-turquoise-middle inset;
+}
+
 .fieldset-fullname__input::placeholder {
   color: rgba(68, 68, 68, 0.3);
 }

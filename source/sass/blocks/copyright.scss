@@ -12,6 +12,19 @@
   text-decoration: none;
 }
 
+.copyright__link:hover .copyright__logo {
+  path {
+    fill: $color-turquoise-footer;
+  }
+}
+
+.copyright__link:active .copyright__text,
+.copyright__link:active .copyright__logo {
+  opacity: 0.3;
+}
+
 .copyright__logo {
+  width: 28px;
+  height: 34;
   margin-left: 30px;
 }

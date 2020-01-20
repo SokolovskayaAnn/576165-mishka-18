@@ -24,6 +24,14 @@
   color: $color-black;
 }
 
+.radio-option__label:hover::before {
+  border: 2px solid $color-turquoise-middle;
+}
+
+.radio-option__label:active::before {
+  border: 2px solid rgba($color: #444444, $alpha: 0.3);
+}
+
 .radio-option__input:checked + .radio-option__label::before {
   box-shadow: 0 0 0 10px $color-white inset;
   background-color: $color-turquoise-middle;

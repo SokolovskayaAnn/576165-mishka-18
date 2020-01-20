@@ -19,6 +19,14 @@
   text-align: center;
 }
 
+.page-header__logo:hover {
+  opacity: 0.6;
+}
+
+.page-header__logo:active {
+  opacity: 0.3;
+}
+
 .page-header__logo-image {
   width: 86px;
   height: 35px;

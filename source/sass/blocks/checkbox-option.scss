@@ -23,6 +23,14 @@
   color: $color-black;
 }
 
+.checkbox-option__label:hover::before {
+  border: 2px solid $color-turquoise-middle;
+}
+
+.checkbox-option__label:active::before {
+  border: 2px solid rgba($color: #444444, $alpha: 0.3);
+}
+
 .checkbox-option__input:checked + .checkbox-option__label::before {
   background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;

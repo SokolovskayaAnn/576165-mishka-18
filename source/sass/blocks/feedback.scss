@@ -83,6 +83,14 @@
   background-color: transparent;
 }
 
+.feedback__button:hover {
+  opacity: 0.6;
+}
+
+.feedback__button:active {
+  opacity: 0.3;
+}
+
 .feedback__button--prev {
   background-image: url("../img/icon-left-arrow.svg");
 }

@@ -16,21 +16,6 @@
   text-transform: uppercase;
 }
 
-.fieldset-email__legend::before {
-  content: "";
-  position: absolute;
-  top: 32px;
-  left: 225px;
-
-  width: 32px;
-  height: 26px;
-
-  background-image: url("../img/icon-mail.svg");
-  background-position: 100% 0%;
-  background-repeat: no-repeat;
-  opacity: 0.2;
-}
-
 .fieldset-email__legend::after {
   content: "";
   position: absolute;
@@ -40,6 +25,18 @@
   width: 175px;
 
   border-top: 1px solid $color-turquoise-light;
+}
+
+.fieldset-email__icon {
+  content: "";
+  position: absolute;
+  top: 36px;
+  left: 225px;
+
+  width: 32px;
+  height: 32px;
+
+  opacity: 0.2;
 }
 
 .fieldset-email__input {
@@ -54,6 +51,28 @@
 
   border: none;
   box-shadow: 0 -2px 0 0 $color-black inset;
+}
+
+.fieldset-email__input:hover {
+  box-shadow: 0 -2px 0 0 $color-turquoise-middle inset;
+}
+
+.fieldset-email__input:active {
+  box-shadow: 0 -2px 0 0 $color-turquoise-middle inset;
+}
+
+.fieldset-email__input:hover + .fieldset-email__icon {
+  path {
+    fill: $color-turquoise-middle;
+  }
+  opacity: 1;
+}
+
+.fieldset-email__input:active .fieldset-telephone__legend::before {
+  path {
+    fill: $color-turquoise-middle;
+  }
+  opacity: 1;
 }
 
 .fieldset-email__input::placeholder {
@@ -86,6 +105,10 @@
     border-top: none;
   }
 
+  .fieldset-email__icon {
+    left: 615px;
+  }
+
   .fieldset-email__input {
     width: 500px;
     padding-top: 0;
@@ -103,12 +126,16 @@
     padding-left: 64px;
   }
 
+  .fieldset-email__legend::before {
+    left: 825px;
+  }
+
+  .fieldset-email__icon {
+    left: 838px;
+  }
+
   .fieldset-email__input {
     width: 700px;
     margin-right: 175px;
-  }
-
-  .fieldset-email__legend::before {
-    left: 825px;
   }
 }

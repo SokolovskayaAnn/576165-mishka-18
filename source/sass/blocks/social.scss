@@ -13,26 +13,24 @@
 
 .social__link {
   display: flex;
+  align-items: center;
+  justify-content: center;
 
   width: 25px;
   height: 30px;
   margin: 25px 16px;
 
   text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
 
-.social__link--instagram {
-  background-image: url("../img/icon-insta.svg");
+.social__link:hover {
+  path {
+    fill: $color-turquoise-footer;
+  }
 }
 
-.social__link--facebook {
-  background-image: url("../img/icon-fb.svg");
-}
-
-.social__link--twitter {
-  background-image: url("../img/icon-twitter.svg");
+.social__link:active {
+  opacity: 0.3;
 }
 
 @media (min-width: $tablet-width) {

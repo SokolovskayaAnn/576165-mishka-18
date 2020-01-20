@@ -51,6 +51,16 @@
   border-bottom: 1px solid $color-turquoise-dark;
 }
 
+.contacts__email-address:hover {
+  color: $color-turquoise-light;
+
+  cursor: pointer;
+}
+
+.contacts__email-address:active {
+  opacity: 0.3;
+}
+
 .contacts__address-label {
   position: relative;
 

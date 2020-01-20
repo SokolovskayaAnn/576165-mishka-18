@@ -27,6 +27,18 @@
   background-color: $color-turquoise-dark;
 }
 
+.category-list__item-link:hover {
+  padding-bottom: 35px;
+}
+
+.category-list__item-link:hover .category-list__item::after {
+  opacity: 0.7;
+} 
+
+.category-list__item-link:active .category-list__item {
+  opacity: 0.3;
+}
+
 .category-list__item {
   width: 130px;
 }
@@ -73,6 +85,10 @@
   .category-list__item-link {
     width: 50%;
     padding-bottom: 38px;
+  }
+
+  .category-list__item-link:hover {
+    transform: translateY(-5px);
   }
 
   .category-list__item::after {

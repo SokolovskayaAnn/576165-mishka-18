@@ -9,6 +9,26 @@
   text-decoration: none;
 }
 
+.user-list__link:hover {
+  color: rgba($color: #000000, $alpha: 0.6);
+}
+
+.user-list__link:hover .user-list__icon {
+  opacity: 1;
+
+  path {
+    fill: $color-turquoise-light;
+  }
+}
+
+.user-list__link:active {
+  color: rgba($color: #000000, $alpha: 0.3);
+}
+
+.user-list__link:active .user-list__icon {
+  opacity: 0.3;
+}
+
 .user-list__item-wrap {
   border-top: 1px solid $color-lightergrey;
 }
@@ -33,14 +53,6 @@
 
   path {
     fill: $color-black;
-  }
-}
-
-.user-list__icon:hover {
-  opacity: 1;
-
-  path {
-    fill: $color-turquoise-light;
   }
 }
 

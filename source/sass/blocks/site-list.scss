@@ -7,6 +7,14 @@
   text-decoration: none;
 }
 
+.site-list__link:hover {
+  color: rgba($color: #000000, $alpha: 0.6);
+}
+
+.site-list__link:active {
+  color: rgba($color: #000000, $alpha: 0.3);
+}
+
 .site-list__item-wrap {
   border-top: 1px solid $color-lightergrey;
 }
