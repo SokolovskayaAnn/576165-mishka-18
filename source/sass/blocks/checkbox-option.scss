@@ -5,11 +5,11 @@
 .checkbox-option__label::before {
   content: "";
   position: absolute;
-  top: -10px;
-  left: -62px;
+  top: -8px;
+  left: -63px;
 
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
 
   border: 2px solid $color-grey;
 }
@@ -46,7 +46,7 @@
   }
 
   .checkbox-option__label::before {
-    top: -14px;
+    top: -17px;
     left: -80px;
 
     width: 54px;

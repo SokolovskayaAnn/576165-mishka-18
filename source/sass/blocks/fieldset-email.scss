@@ -30,7 +30,7 @@
 .fieldset-email__icon {
   content: "";
   position: absolute;
-  top: 36px;
+  top: 34px;
   left: 225px;
 
   width: 32px;
@@ -92,7 +92,7 @@
   }
 
   .fieldset-email__legend {
-    margin: 0;
+    margin-top: 3px;
   }
 
   .fieldset-email__legend::before {
@@ -106,6 +106,7 @@
   }
 
   .fieldset-email__icon {
+    top: 36px;
     left: 615px;
   }
 

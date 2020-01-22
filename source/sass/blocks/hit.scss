@@ -34,8 +34,8 @@
 }
 
 .hit__description {
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin-top: 22px;
+  margin-bottom: 18px;
 
   font-size: 15px;
   font-weight: 400;
@@ -66,14 +66,15 @@
 }
 
 .hit__image-box {
-  margin-top: 27px;
+  margin-top: 29px;
   margin-bottom: 0;
 
+  line-height: 13px;
   text-align: center;
 }
 
 .hit__price {
-  margin-top: 20px;
+  margin-top: 24px;
   margin-bottom: 25px;
 
   text-align: center;
@@ -100,7 +101,7 @@
 
   .hit__title {
     margin-top: 38px;
-    margin-bottom: 48px;
+    margin-bottom: 50px;
 
     font-size: 43px;
     line-height: 50px;
@@ -109,7 +110,7 @@
   .hit__label {
     position: absolute;
     top: 12px;
-    right: 0;
+    right: 14px;
 
     width: 100px;
     margin: 0 auto;
@@ -132,6 +133,10 @@
     margin-bottom: 55px;
   }
 
+  .hit__parameter-value {
+    left: 96px;
+  }
+
   .hit__price {
     width: 292px;
     margin-bottom: 34px;
@@ -146,8 +151,8 @@
 
   .hit__image-box {
     position: absolute;
-    bottom: -9px;
-    right: 0;
+    bottom: -2px;
+    right: 2px;
 
     margin: 0;
   }
@@ -184,10 +189,13 @@
   }
 
   .hit__label {
-    left: -882px;
+    top: 17px;
+    left: -873px;
   }
 
   .hit__image-box {
+    right: 0;
+    bottom: 1px;
     z-index: 0;
   }
 

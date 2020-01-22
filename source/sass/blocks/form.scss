@@ -40,7 +40,7 @@
 .form__send-button {
   width: 100%;
   margin-top: 20px;
-  margin-bottom: 54px;
+  margin-bottom: 55px;
   padding-top: 16px;
   padding-bottom: 16px;
 
@@ -96,14 +96,12 @@
   .form__button-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 47px;
+    margin-bottom: 32px;
   }
 
   .form__legend {
-    align-self: center;
     order: 2;
     width: 302px;
-    margin: 0;
 
     font-size: 17px;
     line-height: 30px;
@@ -113,6 +111,7 @@
     flex-grow: 0;
     width: 230px;
     margin: 0;
+    margin-bottom: 16px;
   }
 }
 
@@ -136,12 +135,19 @@
   .form__intro {
     width: 700px;
     margin-right: auto;
+    margin-bottom: 72px;
     margin-left: auto;
   }
 
   .form__button-container {
-    width: 700px;
+    width: 702px;
     margin-right: auto;
+    margin-bottom: 34px;
     margin-left: auto;
+  }
+
+  .form__legend {
+    margin-top: 10px;
+    margin-bottom: 28px;
   }
 }

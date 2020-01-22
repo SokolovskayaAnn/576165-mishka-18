@@ -4,3 +4,9 @@
   margin-top: 24px;
   border: none;
 }
+
+@media (min-width: $tablet-width) {
+  .form__fieldset {
+    margin-top: 8px;
+  }
+}

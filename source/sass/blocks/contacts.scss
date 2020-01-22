@@ -22,8 +22,8 @@
   position: relative;
 
   margin: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 26px;
 
   font-size: 18px;
   font-weight: 700;
@@ -46,6 +46,7 @@
 
 .contacts__email-address {
   position: absolute;
+  top: 0;
   left: 80px;
 
   border-bottom: 1px solid $color-turquoise-dark;
@@ -65,7 +66,7 @@
   position: relative;
 
   display: flex;
-  height: 160px;
+  height: 157px;
   margin: 0;
   margin-top: 30px;
 
@@ -77,6 +78,7 @@
 
 .contacts__address {
   position: absolute;
+  top: 0;
   left: 80px;
 
   display: flex;
@@ -101,7 +103,7 @@
   width: 260px;
   margin-top: 40px;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
   margin-left: auto;
 }
 
@@ -116,7 +118,7 @@
   }
 
   .contacts__title {
-    margin-top: 47px;
+    margin-top: 44px;
     margin-bottom: 47px;
 
     font-size: 43px;
@@ -132,7 +134,7 @@
     position: absolute;
 
     top: -15px;
-    right: 12px;
+    right: 3px;
 
     width: 46.68px;
     height: 81.691px;
@@ -148,6 +150,10 @@
     font-size: 17px;
   }
 
+  .contacts__email-address {
+    left: 76px;
+  }
+  
   .contacts__address-container {
     flex-direction: row;
   }
@@ -159,11 +165,15 @@
   }
 
   .contacts__address {
+    left: 76px;
+
     width: 230px;
   }
 
   .contacts__write-button {
     width: 230px;
+    margin-top: 55px;
+    margin-bottom: 57px;
   }
 }
 
@@ -172,8 +182,8 @@
     position: relative;
 
     display: flex;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin-top: 162px;
+    margin-bottom: 105px;
   }
 
   .contacts__container {
@@ -188,12 +198,14 @@
   }
 
   .contacts__title {
+    margin-top: 71px;
     font-size: 53px;
     line-height: 57px;
   }
 
   .contacts__title::after {
-    left: -112px;
+    top: -9px;
+    left: -113px;
   }
 
   .contacts__title::before {
@@ -221,7 +233,7 @@
   .contacts__write-button {
     position: absolute;
     margin: 0;
-    right: 60%;
+    right: 58.5%;
     bottom: 0;
   }
 }

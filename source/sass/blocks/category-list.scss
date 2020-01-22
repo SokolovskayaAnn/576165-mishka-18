@@ -15,7 +15,10 @@
 .category-list__item-link {
   position: relative;
 
-  padding: 30px 30px;
+  padding-top: 25.5px;
+  padding-right: 30px;
+  padding-bottom: 29.5px;
+  padding-left: 30px;
 
   color: $color-white;
 
@@ -85,6 +88,7 @@
   .category-list__item-link {
     width: 50%;
     padding-bottom: 38px;
+    padding-left: 35px;
   }
 
   .category-list__item-link:hover {
@@ -97,6 +101,7 @@
 
   .category-list__item--toy::after {
     top: 32px;
+    right: 33px;
   }
 }
 

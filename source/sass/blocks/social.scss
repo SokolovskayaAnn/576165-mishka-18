@@ -18,7 +18,7 @@
 
   width: 25px;
   height: 30px;
-  margin: 25px 16px;
+  margin: 25px 17px;
 
   text-decoration: none;
 }
@@ -35,7 +35,11 @@
 
 @media (min-width: $tablet-width) {
   .social__list {
-    padding-left: 80px;
+    padding-left: 108px;
     border-bottom: none;
+  }
+
+  .social__link {
+    margin-top: 27px;
   }
 }

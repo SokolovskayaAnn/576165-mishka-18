@@ -1,7 +1,7 @@
 .advantages {
   position: relative;
 
-  padding-top: 10px;
+  padding-top: 5px;
   margin-bottom: 55px;
 }
 
@@ -28,7 +28,7 @@
   content: "";
   position: absolute;
 
-  top: -30px;
+  top: -32px;
   left: 0;
 
   width: 100%;
@@ -37,8 +37,9 @@
   background-image: url("../img/bg-zigzag-line.svg");
   background-repeat: no-repeat;
   background-position: center;
-
   background-size: 100%;
+
+  transform: rotate(180deg);
 }
 
 .advantages__list {
@@ -55,7 +56,7 @@
 
   width: 200px;
   margin: 0;
-  padding-top: 85px;
+  padding-top: 83.4px;
 
   font-size: 17px;
   font-weight: 700;
@@ -86,6 +87,9 @@
 }
 
 .advantages__item-title--style::before {
+  top: 20px;
+  left: -1px;
+
   background-image: url("../img/icon-feature-money.svg");
 }
 
@@ -99,21 +103,30 @@
 }
 
 .advantages__item-title--handmade::before {
+  top: 24px;
+  left: -4px;
+
   background-image: url("../img/icon-feature-ball.svg");
 }
 
 .advantages__item-title--support::before {
+  top: 18px;
+  left: -2px;
+
   background-image: url("../img/icon-feature-rocket.svg");
 }
 
 .advantages__item-title--package::before {
+  top: 20px;
+  left: -5px;
+
   background-image: url("../img/icon-feature-gift.svg");
 }
 
 @media (min-width: $tablet-width) {
   .advantages {
     padding-top: 38px;
-    margin-bottom: 4px;
+    margin-bottom: 51px;
   }
 
   .advantages__container {
@@ -137,6 +150,7 @@
 
   .advantages__item-title {
     width: 225px;
+    margin-bottom: 28px;
 
     font-size: 20px;
     line-height: 22px;
@@ -144,11 +158,11 @@
 
   .advantages__list {
     flex-wrap: wrap;
-    height: 465px;
+    height: 470px;
   }
 
   .advantages__item {
-    width: 337px;
+    width: 334px;
   }
 
   .advantages__item-title--style {
@@ -168,7 +182,9 @@
 @media (min-width: $desktop-width) {
   .advantages {
     position: unset;
-    padding-top: 70px;
+
+    padding-top: 72px;
+    margin-bottom: 57px;
   }
 
   .advantages__container {
@@ -183,14 +199,14 @@
   }
 
   .advantages__title {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 
     font-size: 53px;
     line-height: 57px;
   }
 
   .advantages__title::before {
-    top: -80px;
+    top: -82px;
 
     width: $desktop-width - $desktop-padding * 2;
     height: 27px;
@@ -203,6 +219,7 @@
   .advantages__list {
     flex-wrap: wrap;
     justify-content: flex-start;
-    height: 465px;
+
+    width: 700px;
   }
 }

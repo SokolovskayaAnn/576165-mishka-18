@@ -69,9 +69,10 @@
   }
 
   .user-list__item {
+    width: 264px;
     padding-top: 33px;
     padding-left: 0;
-    padding-bottom: 33px;
+    padding-bottom: 31px;
   }
 
   .user-list__item-wrap {
@@ -79,12 +80,15 @@
   }
 
   .user-list__item-wrap--search {
+    padding-top: 33px;
+
     border-left: 1px solid $color-lightergrey;
     border-right: 1px solid $color-lightergrey;
   }
 
   .user-list__item--search {
-    width: 84px;
+    width: 82px;
+    padding-top: 0;
   }
 
   .user-list__icon--search {
@@ -101,6 +105,13 @@
   }
 
   .user-list__icon--cart {
-    left: 32px;
+    top: 2px;
+    left: 31px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-list__item--cart {
+    width: 267px;
   }
 }
