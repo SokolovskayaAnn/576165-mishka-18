@@ -15,8 +15,16 @@
 }
 
 .page-header__logo {
-  height: 80px;
+  height: 78px;
   text-align: center;
+}
+
+.page-header__logo:hover {
+  opacity: 0.6;
+}
+
+.page-header__logo:active {
+  opacity: 0.3;
 }
 
 .page-header__logo-image {
@@ -66,7 +74,7 @@
 
   .page-header__logo {
     position: absolute;
-    left: 455px;
+    left: 448px;
 
     width: auto;
     height: 90px;

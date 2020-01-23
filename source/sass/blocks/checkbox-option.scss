@@ -5,11 +5,11 @@
 .checkbox-option__label::before {
   content: "";
   position: absolute;
-  top: -10px;
-  left: -62px;
+  top: -8px;
+  left: -63px;
 
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
 
   border: 2px solid $color-grey;
 }
@@ -21,6 +21,14 @@
   font-weight: 700;
   line-height: 18px;
   color: $color-black;
+}
+
+.checkbox-option__label:hover::before {
+  border: 2px solid $color-turquoise-middle;
+}
+
+.checkbox-option__label:active::before {
+  border: 2px solid rgba($color: #444444, $alpha: 0.3);
 }
 
 .checkbox-option__input:checked + .checkbox-option__label::before {
@@ -38,7 +46,7 @@
   }
 
   .checkbox-option__label::before {
-    top: -14px;
+    top: -17px;
     left: -80px;
 
     width: 54px;

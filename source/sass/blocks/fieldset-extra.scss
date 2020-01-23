@@ -39,6 +39,14 @@
   resize: none;
 }
 
+.fieldset-extra__textarea:hover {
+  box-shadow: 0 0 0 2px $color-turquoise-middle inset;
+}
+
+.fieldset-extra__textarea:active {
+  box-shadow: 0 0 0 2px $color-turquoise-middle inset;
+}
+
 .fieldset-extra__textarea::placeholder {
   width: 180px;
 
@@ -49,7 +57,7 @@
   .fieldset-extra {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
   }
 
   .fieldset-extra__legend {

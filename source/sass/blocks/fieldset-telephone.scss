@@ -1,4 +1,5 @@
 .fieldset-telephone {
+  position: relative;
   margin-bottom: 32px;
 }
 
@@ -14,21 +15,6 @@
   text-transform: uppercase;
 }
 
-.fieldset-telephone__legend::before {
-  content: "";
-  position: absolute;
-  top: 32px;
-  left: 230px;
-
-  width: 25px;
-  height: 24.333px;
-
-  background-image: url("../img/icon-phone.svg");
-  background-position: 100% 0%;
-  background-repeat: no-repeat;
-  opacity: 0.2;
-}
-
 .fieldset-telephone__legend::after {
   content: "";
   position: absolute;
@@ -38,6 +24,18 @@
   width: 200px;
 
   border-top: 1px solid $color-turquoise-light;
+}
+
+.fieldset-telephone__icon {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 228px;
+
+  width: 25px;
+  height: 24.333px;
+
+  opacity: 0.2;
 }
 
 .fieldset-telephone__input {
@@ -54,6 +52,28 @@
   box-shadow: 0 -2px 0 0 $color-black inset;
 }
 
+.fieldset-telephone__input:hover {
+  box-shadow: 0 -2px 0 0 $color-turquoise-middle inset;
+}
+
+.fieldset-telephone__input:active {
+  box-shadow: 0 -2px 0 0 $color-turquoise-middle inset;
+}
+
+.fieldset-telephone__input:hover + .fieldset-telephone__icon {
+  path {
+    fill: $color-turquoise-middle;
+  }
+  opacity: 1;
+}
+
+.fieldset-telephone__input:active .fieldset-telephone__legend::before {
+  path {
+    fill: $color-turquoise-middle;
+  }
+  opacity: 1;
+}
+
 .fieldset-telephone__input::placeholder {
   color: rgba(68, 68, 68, 0.3);
 }
@@ -67,7 +87,7 @@
   }
 
   .fieldset-telephone__legend {
-    margin: 0;
+    margin-top: 4px;
   }
 
   .fieldset-telephone__legend::before {
@@ -78,6 +98,11 @@
 
   .fieldset-telephone__legend::after {
     border-top: none;
+  }
+
+  .fieldset-telephone__icon {
+    top: 61px;
+    left: 617px;
   }
 
   .fieldset-telephone__input {
@@ -96,12 +121,16 @@
     padding-left: 64px;
   }
 
+  .fieldset-telephone__legend::before {
+    left: 825px;
+  }
+
+  .fieldset-telephone__icon {
+    left: 840px;
+  }
+
   .fieldset-telephone__input {
     width: 700px;
     margin-right: 175px;
-  }
-
-  .fieldset-telephone__legend::before {
-    left: 825px;
   }
 }

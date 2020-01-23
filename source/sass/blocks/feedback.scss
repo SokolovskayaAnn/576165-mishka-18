@@ -38,7 +38,7 @@
 }
 
 .feedback__text {
-  margin: 25px auto;
+  margin-top: 22px;
 
   font-size: 15px;
   font-weight: 400;
@@ -48,7 +48,7 @@
 
 .feedback__user-name {
   margin: 0;
-  margin-top: 30px;
+  margin-top: 28px;
   margin-bottom: 3px;
 
   font-size: 17px;
@@ -81,6 +81,14 @@
   background-position: 50% 50%;
   border: 1px solid $color-lightergrey;
   background-color: transparent;
+}
+
+.feedback__button:hover {
+  opacity: 0.6;
+}
+
+.feedback__button:active {
+  opacity: 0.3;
 }
 
 .feedback__button--prev {
@@ -134,10 +142,12 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+
+    transform: rotate(180deg);
   }
 
   .feedback__text {
-    margin-top: 48px;
+    margin-top: 51px;
     margin-bottom: 58px;
     font-size: 17px;
   }
@@ -160,7 +170,7 @@
 
   .feedback__write-button {
     position: absolute;
-    top: 0;
+    top: 4px;
     right: 0;
 
     width: 175px;
@@ -181,7 +191,7 @@
     flex-direction: column;
     width: $desktop-width - $desktop-padding * 2;
     padding-left: 175px;
-    padding-top: 73px;
+    padding-top: 70px;
     padding-bottom: 94px;
 
     background-image: url("../img/review@1x.jpg");
@@ -199,16 +209,20 @@
   }
 
   .feedback__title::after {
-    bottom: -85px;
+    bottom: -94px;
     left: 0;
 
     width: $desktop-width - $desktop-padding * 2;
     height: 27px;
+
+    transform: rotate(180deg);
   }
 
   .feedback__text {
+    width: 770px;
     margin-top: 48px;
-    margin-bottom: 8px;
+    margin-bottom: 11px;
+
     font-size: 17px;
   }
 
@@ -217,10 +231,10 @@
   }
 
   .feedback__buttons {
-    bottom: 20px;
+    bottom: 59px;
   }
 
   .feedback__write-button {
-    top: 80px;
+    top: 78px;
   }
 }

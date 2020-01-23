@@ -16,3 +16,12 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.button:hover {
+  color: $color-white;
+  background-color: $color-grey;
+}
+
+.button:active {
+  color: rgba($color: #ffffff, $alpha: 0.3);
+}

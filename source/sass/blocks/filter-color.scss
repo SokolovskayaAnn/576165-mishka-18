@@ -73,7 +73,7 @@
   }
 
   .filter-color__option:nth-child(2n+1) {
-    width: 230px;
+    width: 237px;
   }
 }
 
@@ -88,5 +88,7 @@
 
   .filter-color__option:nth-child(n) {
     width: 238px;
+    margin-bottom: 44px;
+    padding-left: 58px;
   }
 }

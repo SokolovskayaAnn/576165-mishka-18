@@ -1,0 +1,132 @@
+.modal {
+  position: fixed;
+  z-index: 10;
+  top: 20%;
+  left: 0;
+
+  width: 100%;
+  padding: 0 $mobile-padding;
+
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+  background-color: $color-white;
+  box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25);
+  display: none;
+}
+
+.modal__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+  margin: 0 auto;
+}
+
+.modal__header {
+  width: 150px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: $color-black;
+
+  text-transform: uppercase;
+}
+
+.modal__description {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $color-grey;
+}
+
+.modal__size {
+  width: 82px;
+  padding: 16px;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: $color-grey;
+
+  border: 2px solid rgba($color: #444444, $alpha: 0.1);
+  text-transform: uppercase;
+}
+
+.modal__size:hover {
+  border: 2px solid rgba($color: #444444, $alpha: 0.3);
+}
+
+.modal__size:active {
+  border: 2px solid $color-turquoise-light;
+}
+
+.modal__size--active {
+  border: 2px solid $color-turquoise-light;
+}
+
+.modal__size-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal__add-button {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 46px;
+  padding: 18px 0;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  color: $color-white;
+
+  border: none;
+  background-color: $color-turquoise-light;
+  text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .modal {
+    left: 13%;
+
+    width: 566px;
+    padding: 0 108px;
+
+    border-right: 1px solid #c6c6c6;
+    border-left: 1px solid #c6c6c6;
+  }
+
+  .modal__container {
+    width: 354px;
+  }
+
+  .modal__header {
+    width: 100%;
+    font-size: 30px;
+    line-height: 57px;
+  }
+
+  .modal__description {
+    margin-top: 4px;
+
+    font-size: 17px;
+  }
+
+  .modal__size {
+    width: 112px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .modal {
+    left: 25%;
+  }
+}

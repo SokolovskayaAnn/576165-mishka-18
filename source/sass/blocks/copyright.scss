@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 22px auto;
+  margin-top: 20px;
+  margin-bottom: 23px;// auto;
 
   font-size: 19px;
   font-weight: 700;
@@ -12,6 +13,26 @@
   text-decoration: none;
 }
 
+.copyright__link:hover .copyright__logo {
+  path {
+    fill: $color-turquoise-footer;
+  }
+}
+
+.copyright__link:active .copyright__text,
+.copyright__link:active .copyright__logo {
+  opacity: 0.3;
+}
+
 .copyright__logo {
+  width: 28px;
+  height: 34px;
+  margin-top: 2px;
   margin-left: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .copyright__link {
+    margin-top: 23px;
+  }
 }
