@@ -9,6 +9,19 @@
   text-decoration: none;
 }
 
+.user-list__icon {
+  position: absolute;
+  top: 5px;
+  left: -45px;
+
+  width: 21px;
+  height: 18px;
+
+  opacity: 0.2;
+
+  fill: $color-black;
+}
+
 .user-list__link:hover {
   color: rgba($color: #000000, $alpha: 0.6);
 }
@@ -16,9 +29,7 @@
 .user-list__link:hover .user-list__icon {
   opacity: 1;
 
-  path {
-    fill: $color-turquoise-light;
-  }
+  fill: $color-turquoise-light;
 }
 
 .user-list__link:active {
@@ -39,21 +50,6 @@
   padding-top: 24px;
   padding-left: 45px;
   padding-bottom: 24px;
-}
-
-.user-list__icon {
-  position: absolute;
-  top: 5px;
-  left: -45px;
-
-  width: 21px;
-  height: 18px;
-
-  opacity: 0.2;
-
-  path {
-    fill: $color-black;
-  }
 }
 
 @media (max-width: $mobile-width-only) {

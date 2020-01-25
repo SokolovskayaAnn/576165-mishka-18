@@ -13,10 +13,12 @@
   text-decoration: none;
 }
 
+.copyright__logo {
+  fill: $color-turquoise-light;
+}
+
 .copyright__link:hover .copyright__logo {
-  path {
-    fill: $color-turquoise-footer;
-  }
+  fill: $color-turquoise-footer;
 }
 
 .copyright__link:active .copyright__text,
