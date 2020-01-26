@@ -62,16 +62,12 @@
 }
 
 .fieldset-email__input:hover + .fieldset-email__icon {
-  path {
-    fill: $color-turquoise-middle;
-  }
+  fill: $color-turquoise-middle;
   opacity: 1;
 }
 
 .fieldset-email__input:active .fieldset-telephone__legend::before {
-  path {
-    fill: $color-turquoise-middle;
-  }
+  fill: $color-turquoise-middle;
   opacity: 1;
 }
 

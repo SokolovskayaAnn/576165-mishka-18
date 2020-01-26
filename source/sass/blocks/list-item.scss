@@ -78,12 +78,12 @@
 .list-item__basket-icon {
   width: 21px;
   height: 18px;
+
+  fill: $color-greyback;
 }
 
 .list-item__basket-link:hover .list-item__basket-icon {
-  path {
-    fill: $color-turquoise-light;
-  }
+  fill: $color-turquoise-light;
 }
 
 .list-item__basket-link:active .list-item__basket-icon {

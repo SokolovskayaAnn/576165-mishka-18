@@ -21,12 +21,11 @@
   margin: 25px 17px;
 
   text-decoration: none;
+  fill: #231f20;
 }
 
 .social__link:hover {
-  path {
-    fill: $color-turquoise-footer;
-  }
+  fill: $color-turquoise-footer;
 }
 
 .social__link:active {
