@@ -88,7 +88,7 @@ gulp.task("js", function() {
     .pipe(rename("app.min.js"))
     .pipe(gulp.dest("build/js"));
 });
- 
+
 gulp.task("refresh", function (done) {
   server.reload();
   done();
