@@ -8,7 +8,7 @@ if (link) {
     evt.preventDefault();
     popup.classList.add('modal--show');
     overlay.classList.add('overlay--show');
-  });  
+  });
 }
 
 if (basketLink) {
