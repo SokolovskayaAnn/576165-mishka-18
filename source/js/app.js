@@ -3,6 +3,21 @@ var basketLink = document.querySelectorAll('.list-item__basket-link');
 var popup = document.querySelector('.modal');
 var overlay = document.querySelector('.overlay');
 
+var navMain = document.querySelector('.main-nav');
+var navButton = document.querySelector('.main-nav__button');
+
+navMain.classList.remove('main-nav--nojs');
+
+navButton.addEventListener('click', function() {
+  if (navMain.classList.contains('main-nav--closed')) {
+    navMain.classList.remove('main-nav--closed');
+    navMain.classList.add('main-nav--opened');
+  } else {
+    navMain.classList.add('main-nav--closed');
+    navMain.classList.remove('main-nav--opened');
+  }
+});
+
 if (link) {
   link.addEventListener('click', function(evt) {
     evt.preventDefault();

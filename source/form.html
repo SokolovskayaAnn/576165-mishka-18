@@ -4,8 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HTML Academy: Мишка</title>
+  <link rel="preload" href="fonts/opensans.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/opensansbold.woff2" as="font" crossorigin="anonymous">
   <link href="css/style.min.css" rel="stylesheet">
+  <title>HTML Academy: Мишка</title>
 </head>
 
 <body>
@@ -20,55 +22,47 @@
             <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Mishka">
           </picture>
         </a>
-        <nav class="main-nav main-nav--closed main-nav--nojs">
-          <button class="main-nav__button" type="button"><span class="visually-hidden">Открыть меню</span></button>
-          <div class="main-nav__wrapper">
-            <ul class="main-nav__list site-list">
-              <div class="site-list__item-wrap">
-                <li class="site-list__item">
-                  <a class="site-list__link site-list__link--catalog" href="catalog.html">Каталог товаров</a>
-                </li>
-              </div>
-              <div class="site-list__item-wrap">
-                <li class="site-list__item">
-                  <a class="site-list__link" href="form.html">Вязание на заказ</a>
-                </li>
-              </div>
-            </ul>
-            <ul class="main-nav__list user-list">
-              <div class="user-list__item-wrap user-list__item-wrap--search">
-                <li class="user-list__item user-list__item--search">
-                  <a class="user-list__link" href="#">
-                    <svg class="user-list__icon user-list__icon--search" width="18" height="18"><use xlink:href="img/sprite.svg#icon-search"></use></svg>
-                    <span class="user-list__link-search">Поиск о сайту</span>
-                  </a>
-                </li>
-              </div>
-              <div class="user-list__item-wrap">
-                <li class="user-list__item">
-                  <a class="user-list__link user-list__link--cart" href="#">
-                    <svg class="user-list__icon user-list__icon--cart" width="21" height="19"><use xlink:href="img/sprite.svg#icon-cart"></use></svg>
-                    Корзина: пока пуста</a>
-                </li>
-              </div>
-            </ul>
-          </div>
-          <div class="main-nav__wrapper main-nav__wrapper--specials">
-            <ul class="main-nav__list specials-list">
-              <li class="specials-list__item">
-                <a class="specials-list__link" href="#">
-                  Новые поступления</a>
-              </li>
-              <li class="specials-list__item">
-                <a class="specials-list__link" href="#">
-                  Распродажа</a>
-              </li>
-            </ul>
-            <p class="main-nav__label">Бесплатная доставка по России</p>
-          </div>
-        </nav>
       </div>
     </div>
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__button" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link site-list__link--catalog" href="catalog.html">Каталог товаров</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="form.html">Вязание на заказ</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-list">
+          <li class="user-list__item user-list__item--search">
+            <a class="user-list__link" href="#">
+              <svg class="user-list__icon user-list__icon--search" width="18" height="18"><use xlink:href="img/sprite.svg#icon-search"></use></svg>
+              <span class="user-list__link-search">Поиск по сайту</span>
+            </a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__link user-list__link--cart" href="#">
+              <svg class="user-list__icon user-list__icon--cart" width="21" height="19"><use xlink:href="img/sprite.svg#icon-cart"></use></svg>
+              Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-nav__wrapper main-nav__wrapper--specials">
+        <ul class="main-nav__list specials-list">
+          <li class="specials-list__item">
+            <a class="specials-list__link" href="#">
+              Новые поступления</a>
+          </li>
+          <li class="specials-list__item">
+            <a class="specials-list__link" href="#">
+              Распродажа</a>
+          </li>
+        </ul>
+        <p class="main-nav__label">Бесплатная доставка по России</p>
+      </div>
+    </nav>
   </header>
 
   <main class="page-form">
@@ -228,8 +222,10 @@
     </div>
   </footer>
 
-  <script src="js/nav-open.js"></script>
+  <script src="js/app.min.js"></script>
   <script src="js/picturefill.js"></script>
+  <script src="js/svg4everybody.min.js"></script>
+  <script src="js/svg4everybody-init.js"></script>
 
 </body>
 
