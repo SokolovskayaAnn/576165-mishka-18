@@ -112,11 +112,13 @@
     padding-top: 75px;
     padding-bottom: 49px;
 
+    background-color: $color-white;
     background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-size: 350px 457px;
 
     @media (min-resolution: $retina-dppx) {
+      background-color: $color-white;
       background-image: url("../img/review@2x.jpg");
     }
   }
@@ -198,11 +200,13 @@
     padding-top: 70px;
     padding-bottom: 94px;
 
+    background-color: $color-white;
     background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
     background-size: 350px 457px;
 
     @media (min-resolution: $retina-dppx) {
+      background-color: $color-white;
       background-image: url("../img/review@2x.jpg");
     }
   }
