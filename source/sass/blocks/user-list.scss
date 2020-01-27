@@ -105,7 +105,7 @@
 
 @media (min-width: $desktop-width) {
   .user-list {
-    position: unset;
+    position: static;
   }
 
   .user-list__item--cart {

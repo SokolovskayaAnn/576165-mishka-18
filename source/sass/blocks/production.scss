@@ -135,12 +135,11 @@
 
   .production__image-wrapper {
     position: relative;
-    // width: auto; //100% ??
     top: auto;
   }
 
   .production__image {
-    position: unset;
+    position: static;
     width: 100%;
   }
 
