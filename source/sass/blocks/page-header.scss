@@ -23,7 +23,8 @@
   opacity: 0.6;
 }
 
-.page-header__logo:active {
+.page-header__logo:active,
+.page-header__logo:focus {
   opacity: 0.3;
 }
 

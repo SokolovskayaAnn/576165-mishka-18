@@ -28,7 +28,8 @@
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-.production__container-inner:active .production__wrapper {
+.production__container-inner:active .production__wrapper,
+.production__container-inner:focus .production__wrapper {
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -88,7 +89,8 @@
   transform: scale(1.2);
 }
 
-.production__play-button:active {
+.production__play-button:active,
+.production__play-button:focus {
   transform: scale(0.8);
   opacity: 0.3;
 }

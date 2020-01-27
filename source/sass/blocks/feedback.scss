@@ -87,7 +87,8 @@
   opacity: 0.6;
 }
 
-.feedback__button:active {
+.feedback__button:active,
+.feedback__button:focus {
   opacity: 0.3;
 }
 

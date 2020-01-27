@@ -27,7 +27,8 @@
   border: 2px solid $color-turquoise-middle;
 }
 
-.checkbox-option__label:active::before {
+.checkbox-option__label:active::before,
+.checkbox-option__label:focus::before {
   border: 2px solid rgba($color: #444444, $alpha: 0.3);
 }
 

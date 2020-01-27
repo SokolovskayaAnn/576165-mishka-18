@@ -58,7 +58,8 @@
   cursor: pointer;
 }
 
-.contacts__email-address:active {
+.contacts__email-address:active,
+.contacts__email-address:focus {
   opacity: 0.3;
 }
 

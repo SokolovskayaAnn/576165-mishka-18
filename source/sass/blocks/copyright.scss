@@ -27,7 +27,9 @@
 }
 
 .copyright__link:active .copyright__text,
-.copyright__link:active .copyright__logo {
+.copyright__link:focus .copyright__text,
+.copyright__link:active .copyright__logo,
+.copyright__link:focus .copyright__logo {
   opacity: 0.3;
 }
 

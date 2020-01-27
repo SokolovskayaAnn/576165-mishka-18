@@ -43,7 +43,8 @@
   box-shadow: 0 0 0 2px $color-turquoise-middle inset;
 }
 
-.fieldset-extra__textarea:active {
+.fieldset-extra__textarea:active,
+.fieldset-extra__textarea:focus {
   box-shadow: 0 0 0 2px $color-turquoise-middle inset;
 }
 

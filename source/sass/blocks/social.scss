@@ -28,7 +28,8 @@
   fill: $color-turquoise-footer;
 }
 
-.social__link:active {
+.social__link:active,
+.social__link:focus {
   opacity: 0.3;
 }
 

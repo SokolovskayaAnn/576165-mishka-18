@@ -64,7 +64,8 @@
   box-shadow: 0 -2px 0 0 $color-turquoise-middle inset;
 }
 
-.fieldset-fullname__input:active {
+.fieldset-fullname__input:active,
+.fieldset-fullname__input:focus {
   box-shadow: 0 -2px 0 0 $color-turquoise-middle inset;
 }
 
